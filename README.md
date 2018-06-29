@@ -3,7 +3,7 @@
 
 This is a Udacity project which was about creating a neigborhood map. I created my neighborhood map on Dublin and 5 good restaurants that exist there. If you click ```index.html``` file, you can view my neighborhood map.
 
-To view my project you can either download it as a zip file or click on this live link:
+To view my project you can either download it as a zip file or click on this live link:  https://ameliack.github.io/NeighborhoodMap/
 
 ## Installing this project
 1. Visit this website: https://github.com/Ameliack/NeighborhoodMap. This is so that you can view my project on github.
