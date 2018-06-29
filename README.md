@@ -6,7 +6,7 @@ This is a Udacity project which was about creating a neigborhood map. I created 
 To view my project you can either download it as a zip file or click on this live link:
 
 ## Installing this project
-1. Visit this website: https://github.com/Ameliack/WebsiteOptimization. This is so that you can view my project on github.
+1. Visit this website: https://github.com/Ameliack/NeighborhoodMap. This is so that you can view my project on github.
 2. Click on the *clone or download* button and then download it as a zip file.
 3. Now open the ```index.html``` file on your computer or machine
 4. Now you have it and can access it.
