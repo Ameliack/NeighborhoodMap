@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Neighborhood Map</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <nav class="theNavbar">
+      <p class="navbarTitle">Dublin - Explore the Beautiful Restauraunts in Dublin City!</p>
+        <input type="text" placeholder="Search" data-bind="textInput: searchItem">
+        <img src="search.png" alt="search Icon" class="searchIcon">
+    </nav>
+
+    <main>
+        <div id="map"></div>
+        <aside class="col-sm-3 col-sm-offset--1">
+          <div class="sideNavigationBar" data-bind="foreach: locationList">
+            <a class="list-group-item" data-bind="text: title, click: show"></a>
+          </div>
+        </aside>
+    </main>
+
+    <footer>
+      <h4>Powered by <img class='FoursquareImage' src="foursquare.png" alt="Foursquare image">Foursquare</h4>
+    </footer>
+
+    <!-- Knockout.js -->
+    <script src="js/lib/knockout.min.js"></script>
+    <script src="js/location_data.js"></script>
+    <script src="js/main.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsHynIl16MoQjQSUdu6v4j3okicEKNJck&v=3&callback=initMap" onerror="googleMapsError()">
+    </script>
+  </body>
+</html>

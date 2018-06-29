@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arvo', serif;
+}
+
+footer {
+  font-family: 'Arvo', serif;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 40px;
+}
+
+.FoursquareImage {
+  width: 40px;
+  height: 40px;
+}
+
+.theNavbar {
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.navbarTitle {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    background: #8E44AD;
+}
+
+#map {
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -2;
+}
+
+.sideNavigationBar {
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
